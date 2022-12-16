@@ -1,0 +1,129 @@
+
+#Pasos{
+    width:700px;
+    background-color: rgb(171, 101, 51);
+}
+
+.pasostitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    text-decoration: underline;
+    text-align: center;
+}
+.textopasos{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tituloingredientes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.listaingredientes{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#ingredientes{
+    background-color: rgb(171, 101, 51);
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.masrecetas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.imagenpanqueque{
+    width: 700px; height: 500px; display: block;
+}
+.flexcontainermenu{
+    display: flex;
+    justify-content: center;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+.flexcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-basis: 500px;
+}
+.flexcontainer3{
+    display: flex;  
+    justify-content: center;
+}
+body{
+    background-color: rgb(234, 189, 137);
+}
+#menu{
+    background-color: rgb(171, 101, 51);
+    width: 700px;
+    position:relative;
+    z-index: 100;
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+  overflow: hidden;
+  background-color:rgb(234, 189, 137);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:rgb(171, 101, 51);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:rgb(171, 101, 51);
+  color: rgb(0, 0, 0);
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background:rgb(171, 101, 51);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background:rgb(171, 101, 51);
+}
+
+

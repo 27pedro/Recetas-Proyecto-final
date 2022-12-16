@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(196, 196, 255);
+}
+#formulario{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    width: 20%;
+    max-width: 600px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.topnav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+  overflow: hidden;
+  background-color:rgb(196, 196, 255);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:rgb(171, 101, 51);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:rgb(171, 101, 51);
+  color: rgb(0, 0, 0);
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background:rgb(171, 101, 51);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background:rgb(171, 101, 51);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    background-color: rgb(153, 153, 255);
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(153, 153, 255);
+  }
